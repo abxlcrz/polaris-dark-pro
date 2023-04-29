@@ -75,7 +75,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#62AD41"
       }
     },
@@ -252,7 +251,7 @@
         "storage.type.generic.groovy",
         "storage.type.object.array.groovy",
         "storage.type.primitive.array.groovy",
-        "storage.type.primitive.groovy",
+        "storage.type.primitive.groovy"
 		      ],
       "settings": {
         "foreground": "#29EEC6"
