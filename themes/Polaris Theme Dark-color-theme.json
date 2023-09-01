@@ -119,7 +119,9 @@
         "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "keyword.import.go",
+        "entity.name.parameter.go"
       ],
       "settings": {
         "foreground": "#D873D0"
@@ -206,7 +208,7 @@
       }
     },
     {
-      "scope": "string",
+      "scope": ["string", "entity.name.import.go"],
       "settings": {
         "foreground": "#E8865E"
       }
