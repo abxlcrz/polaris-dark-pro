@@ -17,7 +17,7 @@
     "sideBar.border": "#E0E1E2",
     "statusBar.border": "#E0E1E2",
     "tab.border": "#E0E1E2",
-    "editor.background": "#FFFFFF",
+    "editor.background": "#FEFEFE",
     "activityBar.background": "#F8F9FA",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.foreground": "#FFFFFF",
@@ -110,7 +110,7 @@
       "name": "Control Keywords (if, return, throw)",
       "scope": ["keyword"],
       "settings": {
-        "foreground": "#AF00DB"
+        "foreground": "#D946EF"
       }
     },
     {
@@ -215,7 +215,7 @@
         "source.go support.type"
       ],
       "settings": {
-        "foreground": "#AF00DB"
+        "foreground": "#D946EF"
       }
     },
     {
@@ -847,7 +847,7 @@
         "source.shell punctuation.definition.parameter"
       ],
       "settings": {
-        "foreground": "#AF00DB"
+        "foreground": "#D946EF"
       }
     },
     {
@@ -891,7 +891,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#AF00DB"
+        "foreground": "#D946EF"
       }
     },
     {
@@ -928,29 +928,38 @@
       }
     },
     {
-      "name": "JavaScript/TypeScript Operators and Literals",
+      "name": "JavaScript/TypeScript Control Operators",
       "scope": [
-        "keyword.operator.new",
-        "keyword.operator.instanceof",
         "keyword.operator.typeof",
-        "keyword.operator.expression.instanceof",
-        "keyword.operator.relational",
-        "constant.language.boolean.true",
-        "constant.language.boolean.false",
-        "constant.language.null",
-        "constant.language.undefined"
+        "keyword.operator.relational"
+      ],
+      "settings": {
+        "foreground": "#D946EF"
+      }
+    },
+    {
+      "name": "Go nil - Declaration Keyword Override",
+      "scope": [
+        "constant.language.nil.go",
+        "constant.language.go",
+        "keyword.other.nil.go"
       ],
       "settings": {
         "foreground": "#0000FF"
       }
     },
     {
-      "name": "instanceof Operator - Final Override",
+      "name": "JavaScript/TypeScript Declaration Operators Override",
       "scope": [
+        "keyword.operator.new.js",
+        "keyword.operator.new.ts",
+        "keyword.operator.new.tsx",
+        "keyword.operator.new",
         "keyword.operator.instanceof.js",
         "keyword.operator.instanceof.ts",
         "keyword.operator.instanceof.tsx",
-        "keyword.operator.instanceof"
+        "keyword.operator.instanceof",
+        "keyword.operator.expression.instanceof"
       ],
       "settings": {
         "foreground": "#0000FF"
