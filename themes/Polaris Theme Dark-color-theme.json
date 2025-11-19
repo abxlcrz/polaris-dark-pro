@@ -807,6 +807,41 @@
       "settings": {
         "foreground": "#E8865E"
       }
+    },
+    {
+      "name": "Shell Commands",
+      "scope": [
+        "source.shell support.function.builtin",
+        "source.shell entity.name.command",
+        "source.shell support.function",
+        "source.shell meta.function-call entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#EBEB9B"
+      }
+    },
+    {
+      "name": "Shell Flags and Options",
+      "scope": [
+        "source.shell variable.parameter",
+        "source.shell constant.other.option",
+        "source.shell support.function.option",
+        "source.shell punctuation.definition.parameter"
+      ],
+      "settings": {
+        "foreground": "#30A0FC"
+      }
+    },
+    {
+      "name": "Shell Arguments",
+      "scope": [
+        "source.shell string",
+        "source.shell meta.string",
+        "source.shell constant.other.argument"
+      ],
+      "settings": {
+        "foreground": "#E8865E"
+      }
     }
   ],
   "semanticHighlighting": true,
