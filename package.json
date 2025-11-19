@@ -2,7 +2,7 @@
   "name": "polaris-theme",
   "displayName": "Polaris Theme",
   "description": "A professional dark and light theme pair with excellent syntax highlighting",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "publisher": "polaris",
   "engines": {
     "vscode": "^1.75.0"

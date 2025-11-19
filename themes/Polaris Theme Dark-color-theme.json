@@ -825,6 +825,21 @@
       }
     },
     {
+      "name": "JavaScript/TypeScript Operators and Literals",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.instanceof",
+        "keyword.operator.typeof",
+        "constant.language.boolean.true",
+        "constant.language.boolean.false",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#30A0FC"
+      }
+    },
+    {
       "name": "Shell Commands",
       "scope": [
         "source.shell support.function.builtin",

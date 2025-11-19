@@ -924,6 +924,35 @@
       "settings": {
         "foreground": "#0000FF"
       }
+    },
+    {
+      "name": "JavaScript/TypeScript Operators and Literals",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.instanceof",
+        "keyword.operator.typeof",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.relational",
+        "constant.language.boolean.true",
+        "constant.language.boolean.false",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#0000FF"
+      }
+    },
+    {
+      "name": "instanceof Operator - Final Override",
+      "scope": [
+        "keyword.operator.instanceof.js",
+        "keyword.operator.instanceof.ts",
+        "keyword.operator.instanceof.tsx",
+        "keyword.operator.instanceof"
+      ],
+      "settings": {
+        "foreground": "#0000FF"
+      }
     }
   ],
   "semanticHighlighting": true,
