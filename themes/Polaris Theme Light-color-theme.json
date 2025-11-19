@@ -919,6 +919,8 @@
         "keyword.package.go",
         "keyword.interface.go",
         "keyword.channel.go",
+        "keyword.function.go",
+        "storage.type.function.go",
         "storage.type.go"
       ],
       "settings": {
