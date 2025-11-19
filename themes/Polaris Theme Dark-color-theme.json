@@ -111,12 +111,7 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "meta.tag",
-        "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
@@ -128,7 +123,7 @@
       }
     },
     {
-      "name": "Tag",
+      "name": "Tag Names",
       "scope": [
         "entity.name.tag",
         "meta.tag.sgml",
@@ -136,6 +131,21 @@
       ],
       "settings": {
         "foreground": "#30A0FC"
+      }
+    },
+    {
+      "name": "HTML/JSX Tag Brackets",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.jsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#808080"
       }
     },
     {
