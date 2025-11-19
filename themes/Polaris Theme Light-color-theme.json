@@ -75,8 +75,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#008000",
-        "fontStyle": "italic"
+        "foreground": "#007000"
       }
     },
     {
@@ -101,10 +100,24 @@
       }
     },
     {
-      "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "name": "Declaration Keywords (class, const, etc.)",
+      "scope": ["storage.type", "keyword.other"],
       "settings": {
         "foreground": "#0000FF"
+      }
+    },
+    {
+      "name": "Control Keywords (if, return, throw)",
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#AF00DB"
+      }
+    },
+    {
+      "name": "Storage Modifiers (async, private, etc.)",
+      "scope": ["storage.modifier"],
+      "settings": {
+        "foreground": "#0070F3"
       }
     },
     {
@@ -159,7 +172,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#795E26"
+        "foreground": "#B8860B"
       }
     },
     {
@@ -177,12 +190,23 @@
       }
     },
     {
-      "name": "Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Constants, Enum Properties",
       "scope": [
         "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
+        "variable.other.enummember",
+        "variable.other.property",
+        "entity.name.variable.enum-member"
+      ],
+      "settings": {
+        "foreground": "#267AC7"
+      }
+    },
+    {
+      "name": "Function Arguments, Tag Attributes",
+      "scope": [
         "variable.parameter",
         "keyword.other.unit",
         "keyword.other",
@@ -191,7 +215,7 @@
         "source.go support.type"
       ],
       "settings": {
-        "foreground": "#0366D6"
+        "foreground": "#AF00DB"
       }
     },
     {
@@ -206,14 +230,14 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#C41E3A"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#098658"
+        "foreground": "#0B7A5A"
       }
     },
     {
@@ -224,7 +248,7 @@
         "entity.name.import.go"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#C41E3A"
       }
     },
     {
@@ -811,7 +835,7 @@
         "source.shell meta.function-call entity.name.function"
       ],
       "settings": {
-        "foreground": "#795E26"
+        "foreground": "#B8860B"
       }
     },
     {
@@ -823,7 +847,7 @@
         "source.shell punctuation.definition.parameter"
       ],
       "settings": {
-        "foreground": "#0366D6"
+        "foreground": "#AF00DB"
       }
     },
     {
@@ -834,14 +858,55 @@
         "source.shell constant.other.argument"
       ],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#C41E3A"
       }
     },
     {
       "name": "All Strings - Final Override",
       "scope": ["string"],
       "settings": {
-        "foreground": "#A31515"
+        "foreground": "#C41E3A"
+      }
+    },
+    {
+      "name": "Enum Members and Constants - Final Override",
+      "scope": [
+        "variable.other.enummember",
+        "constant.other",
+        "variable.other.constant",
+        "entity.name.variable.enum-member"
+      ],
+      "settings": {
+        "foreground": "#267AC7"
+      }
+    },
+    {
+      "name": "Control Keywords (if, return, throw)",
+      "scope": [
+        "keyword.control.conditional",
+        "keyword.control.loop",
+        "keyword.control.flow",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#AF00DB"
+      }
+    },
+    {
+      "name": "Async/Await and Modifiers - Final Override",
+      "scope": [
+        "storage.modifier.async",
+        "keyword.control.flow.await",
+        "storage.modifier.static",
+        "storage.modifier.readonly",
+        "storage.modifier.public",
+        "storage.modifier.private",
+        "storage.modifier.protected"
+      ],
+      "settings": {
+        "foreground": "#0070F3"
       }
     }
   ],
