@@ -75,7 +75,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#6A7B5D",
+        "foreground": "#008000",
         "fontStyle": "italic"
       }
     },
@@ -104,7 +104,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#0366D6"
+        "foreground": "#0000FF"
       }
     },
     {
@@ -159,7 +159,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#795E26"
       }
     },
     {
@@ -206,14 +206,14 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#A31515"
       }
     },
     {
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#098658"
       }
     },
     {
@@ -224,7 +224,7 @@
         "entity.name.import.go"
       ],
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#A31515"
       }
     },
     {
@@ -323,7 +323,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "foreground": "#0366D6"
+        "foreground": "#0000FF"
       }
     },
     {
@@ -811,7 +811,7 @@
         "source.shell meta.function-call entity.name.function"
       ],
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#795E26"
       }
     },
     {
@@ -834,7 +834,14 @@
         "source.shell constant.other.argument"
       ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#A31515"
+      }
+    },
+    {
+      "name": "All Strings - Final Override",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#A31515"
       }
     }
   ],
