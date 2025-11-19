@@ -162,7 +162,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#E8865E"
+        "foreground": "#FFCB6B"
       }
     },
     {
@@ -184,6 +184,24 @@
       }
     },
     {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#B1D99D"
+      }
+    },
+    {
+      "name": "Go Import Strings",
+      "scope": [
+        "source.go string.quoted.double.go",
+        "source.go meta.import string.quoted.double.go",
+        "entity.name.import.go"
+      ],
+      "settings": {
+        "foreground": "#E8865E"
+      }
+    },
+    {
       "name": "String, Symbols, Inherited Class, Markup Heading",
       "scope": [
         "string",
@@ -194,19 +212,6 @@
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
-      "settings": {
-        "foreground": "#C3E88D"
-      }
-    },
-    {
-      "name": "Number",
-      "scope": ["constant.numeric"],
-      "settings": {
-        "foreground": "#B1D99D"
-      }
-    },
-    {
-      "scope": ["string", "entity.name.import.go"],
       "settings": {
         "foreground": "#E8865E"
       }
@@ -393,6 +398,41 @@
       "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#F2C462"
+      }
+    },
+    {
+      "name": "Template Literal Interpolation Brackets",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.section.embedded.begin.metatag.template.ts",
+        "punctuation.section.embedded.end.metatag.template.ts",
+        "punctuation.section.embedded.begin.metatag.template.js",
+        "punctuation.section.embedded.end.metatag.template.js",
+        "string.template punctuation.definition.template-expression",
+        "meta.embedded.expression punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#FF9800",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Template Literal Expression Content",
+      "scope": [
+        "meta.template.expression.ts",
+        "meta.template.expression.js",
+        "meta.embedded.expression.ts",
+        "meta.embedded.expression.js",
+        "source.ts meta.template.expression",
+        "source.js meta.template.expression",
+        "string.template meta.embedded.expression",
+        "string.template source"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
       }
     },
     {
@@ -749,6 +789,13 @@
       ],
       "settings": {
         "foreground": "#EBEB9B"
+      }
+    },
+    {
+      "name": "All Strings - Final Override",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#E8865E"
       }
     }
   ],

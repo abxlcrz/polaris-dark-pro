@@ -207,9 +207,14 @@
       }
     },
     {
-      "scope": ["string", "entity.name.import.go"],
+      "name": "Go Import Strings",
+      "scope": [
+        "source.go string.quoted.double.go",
+        "source.go meta.import string.quoted.double.go", 
+        "entity.name.import.go"
+      ],
       "settings": {
-        "foreground": "#22863A"
+        "foreground": "#D73A49"
       }
     },
     {
@@ -394,6 +399,41 @@
       "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#E36209"
+      }
+    },
+    {
+      "name": "Template Literal Interpolation Brackets",
+      "scope": [
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.section.embedded.begin.metatag.template.ts",
+        "punctuation.section.embedded.end.metatag.template.ts",
+        "punctuation.section.embedded.begin.metatag.template.js",
+        "punctuation.section.embedded.end.metatag.template.js",
+        "string.template punctuation.definition.template-expression",
+        "meta.embedded.expression punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#F66A0A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Template Literal Expression Content",
+      "scope": [
+        "meta.template.expression.ts",
+        "meta.template.expression.js",
+        "meta.embedded.expression.ts",
+        "meta.embedded.expression.js",
+        "source.ts meta.template.expression",
+        "source.js meta.template.expression",
+        "string.template meta.embedded.expression",
+        "string.template source"
+      ],
+      "settings": {
+        "foreground": "#0366D6"
       }
     },
     {

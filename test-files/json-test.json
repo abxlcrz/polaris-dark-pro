@@ -1,0 +1,52 @@
+{
+  "name": "Theme Test JSON",
+  "version": "1.0.0",
+  "description": "Test JSON file to check theme colors",
+  "keywords": ["theme", "test", "colors", "syntax"],
+  "author": {
+    "name": "Test Author",
+    "email": "test@example.com",
+    "url": "https://example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/repo.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.88.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "eslint": "^8.42.0"
+  },
+  "config": {
+    "port": 3000,
+    "host": "localhost",
+    "ssl": false,
+    "debug": true,
+    "maxConnections": 100,
+    "timeout": 30000,
+    "retries": 3
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

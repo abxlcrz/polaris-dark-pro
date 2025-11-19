@@ -1,14 +1,19 @@
 {
   "name": "polaris-theme",
   "displayName": "Polaris Theme",
-  "description": "Polaris Theme",
-  "version": "0.0.1",
+  "description": "A professional dark and light theme pair with excellent syntax highlighting",
+  "version": "0.0.2",
+  "publisher": "polaris",
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abxlcrz/polaris-dark-pro.git"
+  },
   "contributes": {
     "themes": [
       {
