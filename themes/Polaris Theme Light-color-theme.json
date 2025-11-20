@@ -17,7 +17,7 @@
     "sideBar.border": "#E0E1E2",
     "statusBar.border": "#E0E1E2",
     "tab.border": "#E0E1E2",
-    "editor.background": "#FEFEFE",
+    "editor.background": "#F0F1F2",
     "activityBar.background": "#F8F9FA",
     "activityBarBadge.foreground": "#FFFFFF",
     "badge.foreground": "#FFFFFF",
@@ -44,7 +44,7 @@
     "tab.activeForeground": "#2C2D30",
     "panelTitle.inactiveForeground": "#2C2D30",
     "list.highlightForeground": "#2C2D30",
-    "editor.lineHighlightBackground": "#F8F9FA",
+    "editor.lineHighlightBackground": "#EAEBED",
     "editor.selectionBackground": "#D4E7FF",
     "focusBorder": "#3C93FD",
     "button.background": "#3C93FD",
@@ -68,7 +68,8 @@
     "terminal.ansiCyan": "#40C8AE",
     "terminal.ansiBrightCyan": "#40C8AE",
     "terminal.ansiWhite": "#6F777D",
-    "terminal.ansiBrightWhite": "#2C2D30"
+    "terminal.ansiBrightWhite": "#2C2D30",
+    "terminal.background": "#F0F1F2"
   },
   "tokenColors": [
     {
