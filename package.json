@@ -2,7 +2,7 @@
   "name": "polaris-theme",
   "displayName": "Polaris Theme",
   "description": "A professional dark and light theme pair with excellent syntax highlighting for multiple programming languages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "abxlcrz",
   "author": "Abel Cruz",
   "license": "MIT",
@@ -29,7 +29,6 @@
     "type": "git",
     "url": "https://github.com/abxlcrz/polaris-dark-pro.git"
   },
-  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
