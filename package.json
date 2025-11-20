@@ -1,11 +1,12 @@
 {
-  "name": "polaris-theme",
-  "displayName": "Polaris Theme",
+  "name": "interlaken-pro",
+  "displayName": "Interlaken Pro",
   "description": "A professional dark and light theme pair with excellent syntax highlighting for multiple programming languages",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "publisher": "abxlcrz",
   "author": "Abel Cruz",
   "license": "MIT",
+  "icon": "interlaken-logo.png",
   "homepage": "https://github.com/abxlcrz/polaris-dark-pro",
   "bugs": {
     "url": "https://github.com/abxlcrz/polaris-dark-pro/issues"
@@ -32,14 +33,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Polaris Theme Dark",
+        "label": "Interlaken Pro Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Polaris Theme Dark-color-theme.json"
+        "path": "./themes/Interlaken Pro Dark-color-theme.json"
       },
       {
-        "label": "Polaris Theme Light",
+        "label": "Interlaken Pro Light",
         "uiTheme": "vs",
-        "path": "./themes/Polaris Theme Light-color-theme.json"
+        "path": "./themes/Interlaken Pro Light-color-theme.json"
       }
     ]
   }

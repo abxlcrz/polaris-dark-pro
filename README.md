@@ -1,6 +1,10 @@
-# Polaris Theme
+# Interlaken Pro
 
-A professional dark and light theme pair for Visual Studio Code with excellent syntax highlighting across multiple programming languages.
+<div align="center">
+  <img src="interlaken-logo.png" alt="Interlaken Pro Logo" width="128" height="128">
+</div>
+
+A professional dark and light theme pair for Visual Studio Code with excellent syntax highlighting across multiple programming languages. Interlaken Pro combines the elegance of Swiss design principles with modern developer needs.
 
 ## Features
 
@@ -11,11 +15,11 @@ A professional dark and light theme pair for Visual Studio Code with excellent s
 
 ## Themes Included
 
-### Polaris Theme Dark
-A carefully crafted dark theme with excellent contrast and readability.
+### Interlaken Pro Dark
+A sophisticated dark theme inspired by One Dark Pro Flat, featuring excellent contrast and readability with carefully selected colors that reduce eye strain during long coding sessions.
 
-### Polaris Theme Light  
-A light theme following the Default Light Modern pattern with enhanced colors and better contrast.
+### Interlaken Pro Light  
+A refined light theme with a warm F0F1F2 background, following modern design principles with enhanced colors and superior contrast for daylight development.
 
 ## Language Support
 
@@ -39,11 +43,18 @@ The theme uses a consistent color hierarchy:
 
 ## Installation
 
+### From VS Code Marketplace
 1. Open Visual Studio Code
-2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "Polaris Theme"
+2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "Interlaken Pro"
 4. Click Install
-5. Select your preferred theme: `Polaris Theme Dark` or `Polaris Theme Light`
+5. Select your preferred theme: `Interlaken Pro Dark` or `Interlaken Pro Light`
+
+### Manual Installation
+1. Download the latest `.vsix` file from [Releases](https://github.com/abxlcrz/polaris-dark-pro/releases)
+2. Open VS Code and run `Extensions: Install from VSIX...` from the Command Palette
+3. Select the downloaded file
+4. Choose your preferred theme variant
 
 ## Repository
 
@@ -53,4 +64,22 @@ The theme uses a consistent color hierarchy:
 
 MIT License
 
-**Enjoy coding with Polaris Theme!**
+## Screenshots
+
+### Interlaken Pro Dark
+![Dark Theme Preview](.github/dark-theme-preview.png)
+
+### Interlaken Pro Light
+![Light Theme Preview](.github/light-theme-preview.png)
+
+## Contributing
+
+Found a bug or have a suggestion? Please open an issue on our [GitHub repository](https://github.com/abxlcrz/polaris-dark-pro).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
+
+---
+
+**Enjoy coding with Interlaken Pro!** 🏔️
