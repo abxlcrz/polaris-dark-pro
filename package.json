@@ -1,19 +1,35 @@
 {
   "name": "polaris-theme",
   "displayName": "Polaris Theme",
-  "description": "A professional dark and light theme pair with excellent syntax highlighting",
-  "version": "0.2.1",
-  "publisher": "polaris",
+  "description": "A professional dark and light theme pair with excellent syntax highlighting for multiple programming languages",
+  "version": "1.0.0",
+  "publisher": "abxlcrz",
+  "author": "Abel Cruz",
+  "license": "MIT",
+  "homepage": "https://github.com/abxlcrz/polaris-dark-pro",
+  "bugs": {
+    "url": "https://github.com/abxlcrz/polaris-dark-pro/issues"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "color theme",
+    "syntax highlighting",
+    "polaris",
+    "professional"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/abxlcrz/polaris-dark-pro.git"
   },
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
