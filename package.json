@@ -2,14 +2,14 @@
   "name": "interlaken-pro",
   "displayName": "Interlaken Pro",
   "description": "A professional dark and light theme pair with excellent syntax highlighting for multiple programming languages",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "publisher": "abxlcrz",
   "author": "Abel Cruz",
   "license": "MIT",
   "icon": "interlaken-logo.png",
-  "homepage": "https://github.com/abxlcrz/polaris-dark-pro",
+  "homepage": "https://github.com/abxlcrz/interlaken-pro",
   "bugs": {
-    "url": "https://github.com/abxlcrz/polaris-dark-pro/issues"
+    "url": "https://github.com/abxlcrz/interlaken-pro/issues"
   },
   "engines": {
     "vscode": "^1.75.0"
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/abxlcrz/polaris-dark-pro.git"
+    "url": "https://github.com/abxlcrz/interlaken-pro.git"
   },
   "contributes": {
     "themes": [

@@ -51,14 +51,14 @@ The theme uses a consistent color hierarchy:
 5. Select your preferred theme: `Interlaken Pro Dark` or `Interlaken Pro Light`
 
 ### Manual Installation
-1. Download the latest `.vsix` file from [Releases](https://github.com/abxlcrz/polaris-dark-pro/releases)
+1. Download the latest `.vsix` file from [Releases](https://github.com/abxlcrz/interlaken-pro/releases)
 2. Open VS Code and run `Extensions: Install from VSIX...` from the Command Palette
 3. Select the downloaded file
 4. Choose your preferred theme variant
 
 ## Repository
 
-[GitHub Repository](https://github.com/abxlcrz/polaris-dark-pro)
+[GitHub Repository](https://github.com/abxlcrz/interlaken-pro)
 
 ## License
 
@@ -74,7 +74,7 @@ MIT License
 
 ## Contributing
 
-Found a bug or have a suggestion? Please open an issue on our [GitHub repository](https://github.com/abxlcrz/polaris-dark-pro).
+Found a bug or have a suggestion? Please open an issue on our [GitHub repository](https://github.com/abxlcrz/interlaken-pro).
 
 ## Changelog
 
